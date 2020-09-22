@@ -1,0 +1,42 @@
+.lg-btn {
+  background-color: $main-blue;
+  border: none;
+  border-bottom: 0.6rem solid darken($main-blue, 10%);
+  border-radius: 2%;
+  color: white;
+  font-weight: bold;
+  font-size: $l-size;
+  letter-spacing: 0.15rem;
+  margin-bottom: $m-size;
+  padding: 2.4rem;
+  outline: none;
+  width: 100%;
+}
+
+.lg-btn:disabled {
+  opacity: 0.5;
+}
+
+.btn {
+  background-color: $main-blue;
+  border: none;
+  border-bottom: 0.3rem solid darken($main-blue, 10%);
+  border-radius: 2%;
+  color: white;
+  font-weight: 500;
+  outline: none;
+  padding: $s-size;
+}
+
+.btn--link {
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .lg-btn {
+    margin-bottom: $xl-size;
+  }
+}
