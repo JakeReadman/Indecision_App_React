@@ -1,6 +1,9 @@
 {
   "name": "uncertainty-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "app.js",
   "author": "Jake Readman",
   "license": "MIT",
@@ -9,7 +12,7 @@
     "build": "webpack",
     "dev-server": "webpack-dev-server",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
