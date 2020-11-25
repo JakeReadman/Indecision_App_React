@@ -5,7 +5,7 @@ import Header from './Header';
 import Options from './Options';
 import OptionModal from './OptionModal';
 
-export default class IndecisionApp extends React.Component {
+export default class UncertaintyApp extends React.Component {
   state = {
     options: [],
     selectedOption: undefined,
@@ -76,12 +76,12 @@ export default class IndecisionApp extends React.Component {
     return (
       <div>
         <Header subTitle={subTitle} />
-        <div className="container">
+        <div className='container'>
           <Action
             hasOptions={this.state.options.length > 0}
             handlePick={this.handlePick}
           />
-          <div className="widget">
+          <div className='widget'>
             <Options
               options={this.state.options}
               handleDeleteOptions={this.handleDeleteOptions}
