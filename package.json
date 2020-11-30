@@ -1,7 +1,7 @@
 {
   "name": "uncertainty-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "author": "Jake Readman",
   "license": "MIT",
   "scripts": {
